@@ -1,3 +1,4 @@
 *.swp
 *.save
 .idea
+node_modules/
