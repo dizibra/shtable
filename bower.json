@@ -1,0 +1,16 @@
+{
+  "name": "Shtable",
+  "version": "1.0.0",
+  "main": "shtable.js",
+  "ignore": [
+    "src",
+    ".gitignore",
+    "bower.json",
+    "gulpfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.2"
+  }
+}
