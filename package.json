@@ -1,30 +1,13 @@
 {
   "private": true,
-  "devDependencies": {
-    "grunt-concat-css": "^0.3.2",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-htmlmin": "~2.4.0",
-    "grunt-contrib-less": "^1.4.1",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-css-import": "^0.1.8",
-    "grunt-json-generator": "^0.1.0",
-    "grunt-simple-watch": "^0.1.3",
-    "karma-jasmine": "^1.1.0",
-    "karma-safari-launcher": "^1.0.0"
+  "scripts": {
+    "bower": "node_modules/bower/bin/bower",
+    "grunt": "node_modules/grunt-cli/bin/grunt",
+    "build": "node_modules/grunt-cli/bin/grunt"
   },
-  "dependencies": {
-    "express": "^4.13.4",
-    "istanbul": "^0.4.5",
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.6.0",
-    "karma-cli": "^1.0.1",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "redis": "^2.4.2",
-    "socket.io": "^1.4.5"
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0"
   }
 }
