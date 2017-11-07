@@ -1,6 +1,6 @@
 /**
  * shtable - Table with static left columns and/or rows of head
- * @version v1.0.2
+ * @version v1.2.0
  * @link https://github.com/ludevcosm/shtable
  * @license MIT
  * @author Lunar developer and cosmos <ludevcosm@gmail.com>
