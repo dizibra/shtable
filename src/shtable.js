@@ -9,12 +9,12 @@
                 offsetTop: 0,
                 offsetBottom: 0,
                 horizontalScrollHeight: 15,
-                depth: 3,
+                depth: 1,
 
                 //
                 horizontalHead: true,
                 combinationHead: true,
-                verticalHead: true,
+                verticalHead: false,
                 horizontalScroll: true,
 
                 // main
