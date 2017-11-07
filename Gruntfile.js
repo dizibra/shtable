@@ -2,6 +2,16 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        copy: {
+            main: {
+                files: [{
+                    expand: true,
+                    cwd: 'src/',
+                    src: 'shtable.js',
+                    dest: 'dist'
+                }]
+            }
+        },
         uglify: {
             main: {
                 files: {
@@ -14,6 +24,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('default', ['uglify']);
+    grunt.registerTask('default', ['uglify', 'copy']);
 };

@@ -4,8 +4,9 @@
   "main": "shtable.js",
   "ignore": [
     "src",
+    "node_modules",
     ".gitignore",
-    "gulpfile.js",
+    "Gruntfile.js",
     "package.json",
     "README.md"
   ],
