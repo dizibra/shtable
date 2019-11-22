@@ -154,7 +154,7 @@ var shtable = $('#table').shtable(options);
 
 #
 
-I used yesterday:
+Example:
 
 ```js
 var shtable = $('#table').shtable({
