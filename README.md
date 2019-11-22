@@ -1,6 +1,5 @@
 # shtable
-
-> Table with static left columns and/or rows of head.
+Table with static left columns and/or rows of head.
 
 # Install
 You can get it on bower.
